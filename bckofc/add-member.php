@@ -31,7 +31,7 @@ include 'layout/header.php';
       <div class="row">
         <form method="post" action="manage-members.php">
           <!-- TABS START -->
-          <div class="row">
+         
             <div class="col-md-12">
               <div class="card card-primary card-tabs">
                 <div class="card-header p-0 pt-1">
@@ -247,7 +247,7 @@ include 'layout/header.php';
                 <!-- /.card -->
               </div>
             </div>
-          </div>
+        
 
           <!-- TABS END -->
         </form>
