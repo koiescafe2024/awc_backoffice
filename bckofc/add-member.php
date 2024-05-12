@@ -29,7 +29,7 @@ include 'layout/header.php';
   <section class="content">
     <div class="container-fluid">
       <div class="row">
-        <div class="row">
+       
           <div class="col-12 col-sm-6">
             <div class="card card-primary card-tabs">
               <div class="card-header p-0 pt-1">
@@ -389,7 +389,7 @@ include 'layout/header.php';
           <!-- /.col -->
 
           <!-- /.col -->
-        </div>
+        
 
 
         <!-- /.row -->
