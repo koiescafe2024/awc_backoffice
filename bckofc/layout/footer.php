@@ -47,6 +47,10 @@
        //alert('dashboard');
        $("#lnkDashboard").addClass("active");
    }
+   if (window.location.href.indexOf("members") > -1) {
+       //alert('dashboard');
+       $("#lnkMembers").addClass("active");
+   }
    
     </script>
 </body>
