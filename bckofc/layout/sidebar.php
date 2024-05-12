@@ -9,7 +9,7 @@
         <div class="image">  </div>
         
         <div class="info">
-        <a href="admin-login.php" class="d-block far fa-user-circle"> AWC BackOffice </a>
+        <a href="index.php" class="d-block far fa-user-circle"> AWC BackOffice </a>
         </div>
   
       </div>
