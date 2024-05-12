@@ -29,7 +29,7 @@ include 'layout/header.php';
   <section class="content">
     <div class="container-fluid">
       <div class="row">
-       
+      <form method="post" action="manage-members.php">
          <!-- TABS START -->
          <div class="row">
           <div class="col-md-12">
@@ -59,7 +59,7 @@ include 'layout/header.php';
               </div>
               <div class="card-body">
                 <div class="tab-content" id="custom-tabs-five-tabContent">
-                <form method="post" action="manage-members.php">
+               
                   <div class="tab-pane fade show active" id="custom-tabs-five-normal" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
                  
                         <div class="card-body">
@@ -132,7 +132,7 @@ include 'layout/header.php';
                             <button type="submit" class="btn btn-primary">Save</button>
                             <button type="submit" class="btn btn-danger">Cancel</button>
                           </div>
-                </form>
+                
               </div>
               <!-- /.card -->
             </div>
@@ -140,7 +140,7 @@ include 'layout/header.php';
         </div>
 
          <!-- TABS END -->
-
+         </form>
 
       </div><!-- /.container-fluid -->
       
