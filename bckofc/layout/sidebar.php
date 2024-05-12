@@ -27,19 +27,19 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                <li class="nav-item">
-            <a href="dashboard.php" class="nav-link">
+            <a href="dashboard.php" id="lnkDashboard" class="nav-link">
               <i class="nav-icon fa fa-home"></i>
               <p>Dashboard</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="manage-members.php" class="nav-link">
+            <a href="manage-members.php" id="lnkMembers" class="nav-link">
               <i class="nav-icon fa fa-users"></i>
               <p>Manage Members</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="players.php" class="nav-link">
+            <a href="players.php" id="lnkPlayrstcs" class="nav-link">
               <i class="nav-icon fas fa-address-card"></i>
               <p>Players Statistics</p>
             </a>
@@ -47,14 +47,14 @@
          
 
           <li class="nav-item">
-            <a href="new-player-stats.php" class="nav-link">
+            <a href="new-player-stats.php" id="lnkNewPlyr" class="nav-link">
               <i class="nav-icon fas fa-user-secret"></i>
               <p>New Player Stats</p>
             </a>
           </li>
 
           <li class="nav-item">
-            <a href="manage-subagent.php" class="nav-link">
+            <a href="manage-subagent.php" id="lnkSubAgents" class="nav-link">
               <i class="nav-icon fas fa-sitemap"></i>
               
               <p> Manage Sub Agents </p>
@@ -62,20 +62,20 @@
           </li>
 
           <li class="nav-item">
-            <a href="category.php" class="nav-link">
+            <a href="#" class="nav-link" id="lnkReports">
               <i class="nav-icon fa fa-list-alt"></i>
               <p> Reports </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="category.php" class="nav-link">
+            <a href="#" class="nav-link" id="lnkHistory">
               <i class="nav-icon fa fa-history"></i>
               <p> History </p>
             </a>
           </li>
           
           <li class="nav-item">
-            <a href="admin-profile.php" class="nav-link">
+            <a href="admin-profile.php" id="lnkProfile" class="nav-link">
               <i class="nav-icon fas fa-user"></i>
               <p> Profile </p>
             </a>
