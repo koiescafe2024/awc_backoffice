@@ -19,7 +19,7 @@
               <div class="card-header">
                 <h3 class="card-title">Add Member</h3>
               </div> 
-              <form>
+              <form method="post" action="manage-members.php">
                 <div class="card-body">
 
                 <div class="form-group">
