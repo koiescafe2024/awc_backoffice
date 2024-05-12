@@ -38,8 +38,14 @@
                   <thead>
                     <tr>
                       <th style="width: 10px">#</th>
-                      <th>Name</th>
-                      <th>Email</th>
+                      <th>User ID</th>
+                      <th>Prefix</th>
+                      <th>User Name</th>
+                      <th>Currency</th>
+                      <th>Wallet Type</th>
+                      <th>Cert</th>
+                      <th>Login Failure</th>
+                      <th>Password Lock</th>
                       <th>Status</th>
                       <th colspan="3" style=" width: 90px;">Action</th>
                     </tr>
@@ -47,37 +53,23 @@
                   <tbody>
                     <tr>
                       <td >1.</td>
-                      <td >Shobhit Garg</td>
-                      <td>shobhit@gmail.com</td>
-                      <td style="color:green">Accepted</td>
-                      <td><button type="button" class="btn btn-outline-success">Accept</button>
+                      <td >Luckagent</td>
+                      <td>dot</td>
+                      <td >Luckagent</td>
+                      <td>CNY, THB</td>
+                      <td >Single</td>
+                      <td>111111</td>
+                      <td >0</td>
+                      <td>lock</td>
+                      <td style="color:green">Active</td>
+                      <td><button type="button" class="btn btn-outline-success">Suspend</button>
                         <button type="button" class="btn btn-info">View</button>
-                      <button type="button" class="btn btn-success">Update</button>
+                      
                       <button type="button" class="btn btn-danger">Delete</button></td>
                     </tr>
 
 
-                    <tr>
-                      <td >2.</td>
-                      <td >Rahul</td>
-                      <td>rahul@gmail.com</td>
-                      <td style="color:red">Rejected</td>
-                      <td><button type="button" class="btn btn-outline-danger">Reject</button>
-                        <button type="button" class="btn btn-info">View</button>
-                      <button type="button" class="btn btn-success">Update</button>
-                      <button type="button" class="btn btn-danger">Delete</button></td>
-                    </tr>
-
-                    <tr>
-                      <td>3.</td>
-                      <td>Yash</td>
-                      <td>yash@gmail.com</td>
-                      <td>Acceptance Pending</td>
-                      <td><button type="button" class="btn btn-outline-success">Accept</button>
-                      <button type="button" class="btn btn-info">View</button>
-                      <button type="button" class="btn btn-success">Update</button>
-                      <button type="button" class="btn btn-danger">Delete</button></td>
-                    </tr>
+                    
                   </tbody>
                 </table>
               </div>
