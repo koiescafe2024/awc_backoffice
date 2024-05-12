@@ -34,7 +34,7 @@
               </div>
               <!-- /.card-header -->
               <div class="card-body p-0">
-                <table class="table" style="width:250%">
+                <table class="table" style="width:120%">
                   <thead>
                     <tr>
                       <th style="width: 10px">#</th>
