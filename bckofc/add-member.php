@@ -126,7 +126,7 @@ include 'layout/header.php';
                       aria-labelledby="custom-tabs-one-profile-tab">
                       <form method="post" action="manage-members.php">
                         <div class="card-body">
-                          <label style="color:#007bff;font-size:16px">Basic Details</label>
+                          <label style="color:#007bff;font-size:16px">Product</label>
                           <div class="form-group">
                             <label>Account Type</label>
                             <input type="text" class="form-control" placeholder="Account Type">
