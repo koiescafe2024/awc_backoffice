@@ -29,7 +29,7 @@ include 'layout/header.php';
   <section class="content">
     <div class="container-fluid">
       <div class="row">
-     
+      <form method="post" action="manage-members.php">
          <!-- TABS START -->
          <div class="row">
           <div class="col-md-12">
@@ -68,17 +68,45 @@ include 'layout/header.php';
                             <label>Account Type</label>
                             <input type="text" class="form-control" placeholder="Account Type">
                           </div>
-                          
-
-                        
-                         
+                          <div class="form-group">
+                            <label>User ID</label>
+                            <input type="text" class="form-control" placeholder="User ID">
                           </div>
 
-                       
+                          <div class="form-group">
+                            <label>User Name</label>
+                            <input type="text" class="form-control" placeholder="User Name">
+                          </div>
+
+                          <div class="form-group">
+                            <label>Prefix</label>
+                            <input type="number" class="form-control" placeholder="Enter Prefix">
+                          </div>
+
+                          <div class="form-group">
+                            <label>Client API Secret</label>
+                            <input type="text" class="form-control" placeholder="Client API Secret">
+                          </div>
+                          <div class="form-group">
+                            <label>Callback URL</label>
+                            <input type="text" class="form-control" placeholder="Callback URL">
+                          </div>
+
+                          <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control" placeholder="Enter Password">
+                          </div>
+                          <div class="form-group">
+                            <label>Confirm Password</label>
+                            <input type="password" class="form-control" placeholder="Confirm Password">
+                          </div>
+
+
+                          <!-- /.card-body -->
 
                           
                      
-                  
+                  </div>
 
                   <div class="tab-pane fade" id="custom-tabs-five-normal2" role="tabpanel" aria-labelledby="custom-tabs-five-normal2-tab">
                    tab 2
@@ -100,19 +128,19 @@ include 'layout/header.php';
                     Mauris tincidunt mi at erat gravida, eget tristique urna bibendum. Mauris pharetra purus ut ligula tempor, et vulputate metus facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas sollicitudin, nisi a luctus interdum, nisl ligula placerat mi, quis posuere purus ligula eu lectus. Donec nunc tellus, elementum sit amet ultricies at, posuere nec nunc. Nunc euismod pellentesque diam.
                   </div>
                 </div>
+                <div class="card-footer">
+                            <button type="submit" class="btn btn-primary">Save</button>
+                            <button type="submit" class="btn btn-danger">Cancel</button>
+                          </div>
                 
+              </div>
               <!-- /.card -->
             </div>
           </div>
         </div>
 
          <!-- TABS END -->
-         <div class="card-footer">
-                            <button type="submit" class="btn btn-primary">Save</button>
-                            <button type="submit" class="btn btn-danger">Cancel</button>
-                          </div>
-                
-              </div>
+         </form>
 
       </div><!-- /.container-fluid -->
       
