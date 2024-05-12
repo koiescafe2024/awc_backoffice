@@ -31,13 +31,13 @@
           </li>
           <li class="nav-item">
             <a href="manage-members.php" class="nav-link">
-              <i class="nav-icon fa fa-user"></i>
+              <i class="nav-icon fa fa-users"></i>
               <p>Manage Members</p>
             </a>
           </li>
           <li class="nav-item">
             <a href="players.php" class="nav-link">
-              <i class="nav-icon fa fa-car"></i>
+              <i class="nav-icon fa fa-user-secret"></i>
               <p>Players Statistics</p>
             </a>
           </li>
