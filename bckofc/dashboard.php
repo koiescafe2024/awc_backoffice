@@ -29,9 +29,9 @@
             <!-- small box -->
             <div class="small-box bg-info">
               <div class="inner">
-                <h3>150</h3>
+                <h3>167</h3>
 
-                <p> Recent Requests</p>
+                <p> New Players</p>
               </div>
               <div class="icon">
                 <i class="fa fa-plus-square"></i>
@@ -46,7 +46,7 @@
               <div class="inner">
                 <h3>53</h3>
 
-                <p>Total Customers</p>
+                <p>Total Bids</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
@@ -59,9 +59,9 @@
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3>44</h3>
+                <h3>2000</h3>
 
-                <p>Total Mechanics </p>
+                <p>Total Profit </p>
               </div>
               <div class="icon">
               <i class="ion ion-pie-graph"></i>
