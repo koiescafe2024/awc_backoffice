@@ -10,8 +10,8 @@
         
         <div class="info">
         <a href="index.php" class="d-block far fa-user-circle"> AWC BackOffice </a>
-        <br/>
-        <span style="font-size:10px;font-style:italic">Last Login: 12-05-2024 17:00</span>
+        
+        <span style="font-size:10px;font-style:italic;color:white">Last Login: 12-05-2024 17:00</span>
 
         </div>
   
