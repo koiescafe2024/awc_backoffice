@@ -94,6 +94,10 @@ include 'layout/header.php';
 
 
       </div><!-- /.container-fluid -->
+      <div class="card-footer">
+                            <button type="submit" class="btn btn-primary">Save</button>
+                            <button type="submit" class="btn btn-danger">Cancel</button>
+                          </div>
   </section>
   <!-- /.content -->
 </div>
