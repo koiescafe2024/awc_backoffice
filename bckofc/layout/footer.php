@@ -44,7 +44,8 @@
 <script>
    
    if (window.location.href.indexOf("dashboard") > -1) {
-       alert('dashboard');
+       //alert('dashboard');
+       $("#lnkDashboard").addClass("active");
    }
    
     </script>
