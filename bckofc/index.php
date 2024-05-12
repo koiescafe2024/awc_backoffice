@@ -44,7 +44,7 @@
           <!-- /.col -->
           <div class="col-4 ">
         
-              <a class="btn btn-primary" href="index.php" role="button">Sign In</a>
+              <a class="btn btn-primary" href="dashboard.php" role="button">Sign In</a>
           </div>
           <!-- /.col -->
         </div>
