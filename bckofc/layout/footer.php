@@ -47,7 +47,7 @@
        //alert('dashboard');
        $("#lnkDashboard").addClass("active");
    }
-   if (window.location.href.indexOf("members") > -1) {
+   if (window.location.href.indexOf("member") > -1) {
        //alert('dashboard');
        $("#lnkMembers").addClass("active");
    }
