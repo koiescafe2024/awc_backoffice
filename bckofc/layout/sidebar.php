@@ -37,7 +37,7 @@
           </li>
           <li class="nav-item">
             <a href="players.php" class="nav-link">
-              <i class="nav-icon fa fa-user-secret"></i>
+              <i class="nav-icon fa  fa-address-card"></i>
               <p>Players Statistics</p>
             </a>
           </li>
@@ -45,14 +45,14 @@
 
           <li class="nav-item">
             <a href="new-player-stats.php" class="nav-link">
-              <i class="nav-icon fas fa-comments"></i>
+              <i class="nav-icon fas fa-user-secret"></i>
               <p>New Player Stats</p>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="manage-subagent.php" class="nav-link">
-              <i class="nav-icon fas fa-book"></i>
+              <i class="nav-icon fas  fa-sitemap"></i>
               
               <p> Manage Sub Agents </p>
             </a>
@@ -66,7 +66,7 @@
           </li>
           <li class="nav-item">
             <a href="category.php" class="nav-link">
-              <i class="nav-icon fa fa-list-alt"></i>
+              <i class="nav-icon fa  fa-history"></i>
               <p> History </p>
             </a>
           </li>
@@ -80,7 +80,7 @@
 
           <li class="nav-item">
             <a href="logout.php" class="nav-link">
-            <i class="fa fa-sign-out"></i>
+            <i class="nav-icon fa fa-sign-out"></i>
               <p> Logout </p>
             </a>
           </li>
