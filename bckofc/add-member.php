@@ -39,7 +39,7 @@
               </div> 
               <form method="post" action="manage-members.php">
                 <div class="card-body">
-                <label>Basic Details</label>
+                <label style="color:blue;font-size:14px">Basic Details</label>
                 <div class="form-group">
                     <label>Account Type</label>
                     <input type="text" class="form-control"  placeholder="Account Type">
