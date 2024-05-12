@@ -62,7 +62,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="#" class="nav-link" id="lnkReports">
+            <a href="PLReport.php" class="nav-link" id="lnkReports">
               <i class="nav-icon fa fa-list-alt"></i>
               <p> Win / Loss Report </p>
             </a>
