@@ -71,6 +71,10 @@
        //alert('dashboard');
        $("#lnkHistory").addClass("active");
    }
+   if (window.location.href.indexOf("profile") > -1) {
+       //alert('dashboard');
+       $("#lnkProfile").addClass("active");
+   }
     </script>
 </body>
 </html>
