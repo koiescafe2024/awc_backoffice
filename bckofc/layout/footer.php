@@ -43,8 +43,9 @@
 <script src="dist/js/pages/dashboard.js"></script>
 <script>
    
-        currLoc = $(location).attr('href');
-       alert(currLoc);
+   if (window.location.href.indexOf("dashboard") > -1) {
+       alert('dashboard');
+   }
    
     </script>
 </body>
