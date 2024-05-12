@@ -42,7 +42,7 @@
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="dist/js/pages/dashboard.js"></script>
 <script>
-   
+   alert(window.location.href);
    if (window.location.href.indexOf("dashboard") > -1) {
        //alert('dashboard');
        $("#lnkDashboard").addClass("active");
@@ -52,7 +52,7 @@
        $("#lnkMembers").addClass("active");
    }
    if (window.location.href.indexOf("players") > -1) {
-       //alert('dashboard');
+       
        $("#lnkPlayrstcs").addClass("active");
    }
    if (window.location.href.indexOf("new-player-stats") > -1) {
