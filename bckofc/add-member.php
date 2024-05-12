@@ -29,7 +29,7 @@ include 'layout/header.php';
   <section class="content">
     <div class="container-fluid">
       <div class="row">
-        <form method="post" action="manage-members.php">
+        <form method="post" action="manage-members.php" style="100%">
           <!-- TABS START -->
          
             <div class="col-md-12">
