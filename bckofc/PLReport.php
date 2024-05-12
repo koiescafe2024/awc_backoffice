@@ -51,7 +51,7 @@
                       <th>Adjustment</th>
                       <th>Total P/L</th>
                       <th>Margin(%)</th>
-                      <th><span style="color:blue;font-weight:bold">Agent</span>PT Win/Loss</th>
+                      <th><span style="color:blue;font-weight:bold">Agent</span> PT Win/Loss</th>
                       <th>Adjustment</th>
                       <th>Total P/L</th>
                      
@@ -59,7 +59,7 @@
                       <th>Adjustment</th>
                       <th>Total P/L</th>
                      
-                      <th><span style="color:blue;font-weight:bold">Company</span>Total P/L</th>
+                      <th><span style="color:blue;font-weight:bold">Company</span> Total P/L</th>
                      
                      
                       <th>Status</th>
@@ -91,7 +91,8 @@
                        <td ></td>
                       <td ></td>
                       <td></td>
-                      
+                      <td ></td>
+                      <td></td>
                      
                      
                     </tr>
