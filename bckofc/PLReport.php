@@ -34,7 +34,7 @@
               </div>
               <!-- /.card-header -->
               <div class="card-body p-0">
-                <table class="table" >
+                <table class="table" style="width:250%">
                   <thead>
                     <tr>
                       <th style="width: 10px">#</th>
@@ -62,13 +62,13 @@
                       <th><span style="color:blue;font-weight:bold">Company</span> Total P/L</th>
                      
                      
-                      <th>Status</th>
-                      <th colspan="3" style=" width: 90px;">Action</th>
+                     
+                     
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td ></td>
+                      <td>1</td>
                       <td ></td>
                       <td></td>
                       <td ></td>
@@ -89,10 +89,7 @@
                       <td></td>
                       <td></td>
                        <td ></td>
-                      <td ></td>
-                      <td></td>
-                      <td ></td>
-                      <td></td>
+                    
                      
                      
                     </tr>
