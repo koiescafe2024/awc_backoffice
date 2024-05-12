@@ -64,7 +64,7 @@
           <li class="nav-item">
             <a href="#" class="nav-link" id="lnkReports">
               <i class="nav-icon fa fa-list-alt"></i>
-              <p> Reports </p>
+              <p> Win / Loss Report </p>
             </a>
           </li>
           <li class="nav-item">
