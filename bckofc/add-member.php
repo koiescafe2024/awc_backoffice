@@ -11,7 +11,7 @@ include 'layout/header.php';
         <div class="col-sm-6">
 
           <div class="col-sm-3"></div>
-          <h1>Manage Members</h1>
+          <h1>Add Member</h1>
         </div><!-- /.col -->
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
