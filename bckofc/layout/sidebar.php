@@ -37,7 +37,7 @@
           </li>
           <li class="nav-item">
             <a href="players.php" class="nav-link">
-              <i class="nav-icon fa fa-address-card"></i>
+              <i class="nav-icon fas fa-address-card"></i>
               <p>Players Statistics</p>
             </a>
           </li>
