@@ -37,7 +37,7 @@
           </li>
           <li class="nav-item">
             <a href="players.php" class="nav-link">
-              <i class="nav-icon fa  fa-address-card"></i>
+              <i class="nav-icon fa fa-address-card"></i>
               <p>Players Statistics</p>
             </a>
           </li>
@@ -52,7 +52,7 @@
 
           <li class="nav-item">
             <a href="manage-subagent.php" class="nav-link">
-              <i class="nav-icon fas  fa-sitemap"></i>
+              <i class="nav-icon fas fa-sitemap"></i>
               
               <p> Manage Sub Agents </p>
             </a>
@@ -66,7 +66,7 @@
           </li>
           <li class="nav-item">
             <a href="category.php" class="nav-link">
-              <i class="nav-icon fa  fa-history"></i>
+              <i class="nav-icon fa fa-history"></i>
               <p> History </p>
             </a>
           </li>
