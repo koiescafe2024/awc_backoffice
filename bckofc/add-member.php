@@ -44,13 +44,13 @@ include 'layout/header.php';
                     <a class="nav-link" id="custom-tabs-five-normal2-tab" data-toggle="pill" href="#custom-tabs-five-normal2" role="tab" aria-controls="custom-tabs-five-normal2" aria-selected="false">Product</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" id="custom-tabs-five-normal3-tab" data-toggle="pill" href="#custom-tabs-five-normal3" role="tab" aria-controls="custom-tabs-five-normal3" aria-selected="false">Currency</a>
+                    <a class="nav-link" id="custom-tabs-five-normal3-tab" data-toggle="pill" href="#custom-tabs-five-normal3" role="tab" aria-controls="custom-tabs-five-normal3" aria-selected="false">Currency</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" id="custom-tabs-five-normal4-tab" data-toggle="pill" href="#custom-tabs-five-normal4" role="tab" aria-controls="custom-tabs-five-normal4" aria-selected="false">PT Settings</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" id="custom-tabs-five-normal5-tab" data-toggle="pill" href="#custom-tabs-five-normal5" role="tab" aria-controls="custom-tabs-five-normal5" aria-selected="false">Product Setting</a>
+                    <a class="nav-link" id="custom-tabs-five-normal5-tab" data-toggle="pill" href="#custom-tabs-five-normal5" role="tab" aria-controls="custom-tabs-five-normal5" aria-selected="false">Product Setting</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" id="custom-tabs-five-normal6-tab" data-toggle="pill" href="#custom-tabs-five-normal6" role="tab" aria-controls="custom-tabs-five-normal6" aria-selected="false">Bet Limit</a>
