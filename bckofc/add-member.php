@@ -58,7 +58,7 @@ include 'layout/header.php';
                 </ul>
               </div>
               <div class="card-body">
-              <div class="card-footer">
+              <div class="card-footer" style="float:right">
                             <button type="submit" class="btn btn-primary">Save</button>
                             <button type="submit" class="btn btn-danger">Cancel</button>
                           </div>
