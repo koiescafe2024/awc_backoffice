@@ -51,7 +51,26 @@
        //alert('dashboard');
        $("#lnkMembers").addClass("active");
    }
-   
+   if (window.location.href.indexOf("players") > -1) {
+       //alert('dashboard');
+       $("#lnkPlayrstcs").addClass("active");
+   }
+   if (window.location.href.indexOf("new-player-stats") > -1) {
+       //alert('dashboard');
+       $("#lnkNewPlyr").addClass("active");
+   }
+   if (window.location.href.indexOf("subagent") > -1) {
+       //alert('dashboard');
+       $("#lnkSubAgents").addClass("active");
+   }
+   if (window.location.href.indexOf("report") > -1) {
+       //alert('dashboard');
+       $("#lnkReports").addClass("active");
+   }
+   if (window.location.href.indexOf("history") > -1) {
+       //alert('dashboard');
+       $("#lnkHistory").addClass("active");
+   }
     </script>
 </body>
 </html>
