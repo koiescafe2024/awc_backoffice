@@ -29,7 +29,7 @@
                 <h3 class="card-title">All Members</h3>
 
                 <div class="card-tools">
-                <a class="btn btn-primary" href="add-customer.php" role="button">Add Member</a>
+                <a class="btn btn-primary" href="add-member.php" role="button">Add Member</a>
                 </div>
               </div>
               <!-- /.card-header -->
