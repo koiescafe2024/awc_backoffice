@@ -62,7 +62,7 @@ include 'layout/header.php';
                
                   <div class="tab-pane fade show active" id="custom-tabs-five-normal" role="tabpanel" aria-labelledby="custom-tabs-five-normal-tab">
                  
-                        <div class="card-body">
+                        
                           <label style="color:#007bff;font-size:16px">Basic Details</label>
                           <div class="form-group">
                             <label>Account Type</label>
@@ -102,14 +102,14 @@ include 'layout/header.php';
                           </div>
 
 
-                          <!-- /.card-body -->
+                       
 
                           
                      
-                  </div>
+                  
 
                   <div class="tab-pane fade" id="custom-tabs-five-normal2" role="tabpanel" aria-labelledby="custom-tabs-five-normal2-tab">
-                   
+                   tab 2
                   </div>
 
                   <div class="tab-pane fade" id="custom-tabs-five-normal3" role="tabpanel" aria-labelledby="custom-tabs-five-normal3-tab">
