@@ -26,6 +26,19 @@
   <!-- summernote -->
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <style>
+            .blink {
+                animation: blinker 1.5s linear infinite;
+                color: red;
+                font-family: sans-serif;
+                font-size: 10px;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+        </style>
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
