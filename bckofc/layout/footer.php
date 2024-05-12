@@ -42,7 +42,7 @@
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="dist/js/pages/dashboard.js"></script>
 <script>
-   alert(window.location.href);
+   //alert(window.location.href);
    if (window.location.href.indexOf("dashboard") > -1) {
        //alert('dashboard');
        $("#lnkDashboard").addClass("active");
