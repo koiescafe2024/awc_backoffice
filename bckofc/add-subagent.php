@@ -65,11 +65,14 @@
                          
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" type="checkbox">
-                          <label class="form-check-label">Checkbox</label>
+                          <input class="form-check-input" type="checkbox" value="SexyHedgingDetection">
+                          <label class="form-check-label">Sexy Hedging Detection</label>
 
-                          <input class="form-check-input" type="checkbox">
-                          <label class="form-check-label">Checkbox2</label>
+                          <input class="form-check-input" style="margin-left:10px" type="checkbox" value="VenusHedgingDetection">
+                          <label class="form-check-label">Venus Hedging Detection</label>
+
+                          <input class="form-check-input" style="margin-left:10px" type="checkbox" value="SkyCasinoHedgingDetection">
+                          <label class="form-check-label">Sky Casino Hedging Detection</label>
                         </div>
                   </div>
                   
