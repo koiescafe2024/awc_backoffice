@@ -32,9 +32,9 @@
 
           <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Sub Agent Profile</h3>
+                <h3 class="card-title">Add Sub Agent</h3>
               </div> 
-              <form>
+              <form method="post" action="manage-subagent.php">
                 <div class="card-body">
                   <div class="form-group">
                     <label>User ID</label>
