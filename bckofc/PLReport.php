@@ -31,6 +31,33 @@
                 <div class="card-tools">
                 Filters
                 </div>
+                <div class="row">
+                <div class="form-group">
+                        <label>Date Time</label>
+                        <input type="text" class="form-control" placeholder="Date Time">
+                      </div>
+                      <div class="form-group">
+                        <label>Timezone</label>
+                        <input type="text" class="form-control" placeholder="Timezone">
+                      </div>
+                      <div class="form-group">
+                        <label>Platform</label>
+                        <input type="text" class="form-control" placeholder="Platform">
+                      </div>
+                      <div class="form-group">
+                        <label>Type</label>
+                        <input type="text" class="form-control" placeholder="Type">
+                      </div>
+                      <div class="form-group">
+                        <label>Location</label>
+                        <input type="text" class="form-control" placeholder="Location">
+                      </div>
+                      <div class="form-group">
+                        <label>Currency</label>
+                        <input type="text" class="form-control" placeholder="Currency">
+                      </div>
+
+                </div>
               </div>
               <!-- /.card-header -->
               <div class="card-body p-0">
