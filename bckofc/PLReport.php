@@ -33,6 +33,7 @@
                 <div class="form-group" placeholder="Select">
                         <label>Period</label>
                         <select class="custom-select">
+                        <option value="0">Specific Datetime</option>
                         <option value="1">Today</option>
                           <option value="2">Yesterday</option>
                           <option value="3">This Week</option>
