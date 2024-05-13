@@ -44,7 +44,7 @@
                       </div>
                 <div class="form-group">
                         <label>Date Time</label>
-                        <input type="text" class="form-control" placeholder="Date Time">
+                        <input type="text" class="form-control float-right" id="dtTime">
                       </div>
                       <div class="form-group">
                         <label>Timezone</label>
