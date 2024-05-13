@@ -50,9 +50,14 @@
                         <label>Location</label>
                         <input type="text" class="form-control" placeholder="Location">
                       </div>
-                      <div class="form-group">
+                      <div class="form-group" placeholder="Select">
                         <label>Currency</label>
-                        <input type="text" class="form-control" placeholder="Currency">
+                        <select class="custom-select">
+                        <option value="-1">Select</option>
+                          <option value="CNY">CNY</option>
+                          <option value="THB">THB</option>
+                        
+                        </select>
                       </div>
 
                 </div>
