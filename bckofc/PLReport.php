@@ -28,9 +28,7 @@
               <div class="card-header">
                 <h3 class="card-title">Win / Loss Stats</h3>
 
-                <div class="card-tools">
-                Filters
-                </div>
+              <br/>
                 <div class="row">
                 <div class="form-group">
                         <label>Date Time</label>
