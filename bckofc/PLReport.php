@@ -26,7 +26,7 @@
     <div class="col-md-12">
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">Win / Loss Stats</h3>
+               
 
               <br/>
                 <div class="row">
@@ -59,6 +59,7 @@
               </div>
               <!-- /.card-header -->
               <div class="card-body p-0">
+              <h3 class="card-title">Win / Loss Stats</h3>
                 <table class="table" style="width:100%;overflow:scroll">
                   <thead>
                     <tr>
