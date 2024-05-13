@@ -1,102 +1,105 @@
 <?php
-  include 'layout/header.php'; 
-  ?>
+include 'layout/header.php';
+?>
 
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            
-          </div>
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Manage Sub Agent</li>
-            </ol>
-          </div>
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <div class="container-fluid">
+      <div class="row mb-2">
+        <div class="col-sm-6">
+
         </div>
-      </div><!-- /.container-fluid -->
-    </section>
+        <div class="col-sm-6">
+          <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active">Manage Sub Agent</li>
+          </ol>
+        </div>
+      </div>
+    </div><!-- /.container-fluid -->
+  </section>
 
-    <!-- Main content -->
-    <section class="content">
-      <div class="container-fluid">
-        <div class="row">
+  <!-- Main content -->
+  <section class="content">
+    <div class="container-fluid">
+      <div class="row">
         <div class="col-md-3"></div>
 
-          <div class="col-md-6">
+        <div class="col-md-6">
 
           <div class="card card-primary">
-              <div class="card-header">
-                <h3 class="card-title">Add Sub Agent</h3>
-              </div> 
-              <form method="post" action="manage-subagent.php">
-                <div class="card-body">
-                  <div class="form-group">
-                    <label>User ID</label>
-                    <input type="text" class="form-control"  placeholder="User ID">
-                  </div>
-                  <div class="form-group">
-                    <label>User Name</label>
-                    <input type="text" class="form-control"  placeholder="User Name">
-                  </div>
-                 
-                  <div class="form-group">
-                    <label >Password</label>
-                    <input type="password" class="form-control"  placeholder="Password">
-                  </div>
-
-                  <div class="form-group">
-                    <label >Confirm Password</label>
-                    <input type="password" class="form-control"  placeholder="Confirm Password">
-                  </div>
-
-                  <div class="form-group">
-                    
-                    Permissions
-                    <div class="custom-control custom-checkbox"> 
-                    <input class="custom-control-input" type="checkbox" id="Permissions" value="All Fraud Tools">
-                      <label for="Permissions" class="custom-control-label">All Fraud Tools</label>
-                      
-                         
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="SexyHedgingDetection">
-                          <label class="form-check-label">Sexy Hedging Detection</label>
-
-                          <input class="form-check-input" style="margin-left:10px" type="checkbox" value="VenusHedgingDetection">
-                          <label class="form-check-label">Venus Hedging Detection</label>
-
-                          <input class="form-check-input" style="margin-left:10px" type="checkbox" value="SkyCasinoHedgingDetection">
-                          <label class="form-check-label">Sky Casino Hedging Detection</label>
-                        </div>
-                  </div>
-                  
-                <!-- /.card-body -->
-
-                <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Save</button>
-                </div>
-              </form>
+            <div class="card-header">
+              <h3 class="card-title">Add Sub Agent</h3>
             </div>
+            <form method="post" action="manage-subagent.php">
+              <div class="card-body">
+                <div class="form-group">
+                  <label>User ID</label>
+                  <input type="text" class="form-control" placeholder="User ID">
+                </div>
+                <div class="form-group">
+                  <label>User Name</label>
+                  <input type="text" class="form-control" placeholder="User Name">
+                </div>
+
+                <div class="form-group">
+                  <label>Password</label>
+                  <input type="password" class="form-control" placeholder="Password">
+                </div>
+
+                <div class="form-group">
+                  <label>Confirm Password</label>
+                  <input type="password" class="form-control" placeholder="Confirm Password">
+                </div>
+
+                <div class="form-group">
+
+                  Permissions
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" type="checkbox" id="Permissions" value="All Fraud Tools">
+                    <label for="Permissions" class="custom-control-label">All Fraud Tools</label>
+
+
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="SexyHedgingDetection">
+                    <label class="form-check-label">Sexy Hedging Detection</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input"  type="checkbox"
+                      value="VenusHedgingDetection">
+                    <label class="form-check-label">Venus Hedging Detection</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input"  type="checkbox"
+                      value="SkyCasinoHedgingDetection">
+                    <label class="form-check-label">Sky Casino Hedging Detection</label>
+                  </div>
+
+
+                  <!-- /.card-body -->
+
+                  <div class="card-footer">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                  </div>
+            </form>
           </div>
-          <!-- /.col -->
-     
-          <!-- /.col -->
         </div>
-        <div class="col-md-3"></div>
+        <!-- /.col -->
 
-        <!-- /.row -->
-      </div><!-- /.container-fluid -->
-    </section>
-    <!-- /.content -->
-  </div>            
+        <!-- /.col -->
+      </div>
+      <div class="col-md-3"></div>
 
-  <?php
-  include 'layout/footer.php'; 
-  ?>
- 
+      <!-- /.row -->
+    </div><!-- /.container-fluid -->
+  </section>
+  <!-- /.content -->
+</div>
+
+<?php
+include 'layout/footer.php';
+?>
