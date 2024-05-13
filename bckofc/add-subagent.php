@@ -84,11 +84,27 @@ include 'layout/header.php';
 
 
                   </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="memUpdate">
+                    <label class="form-check-label">Update Member</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="memView">
+                    <label class="form-check-label">View Member</label>
+                  </div>
                   <div class="custom-control custom-checkbox">
                     <input class="custom-control-input" type="checkbox" id="allReports" value="All Reports">
                     <label for="allReports" class="custom-control-label">All Reports</label>
 
 
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="report1">
+                    <label class="form-check-label">Report 1</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="report2">
+                    <label class="form-check-label">Report 2</label>
                   </div>
 
                   <!-- /.card-body -->
