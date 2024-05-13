@@ -29,7 +29,7 @@
                 <h3 class="card-title">All Sub Agents </h3>
 
                 <div class="card-tools">
-                <a class="btn btn-primary" href="add-mechanic.php" role="button">Add  Sub Agents</a>
+                <a class="btn btn-primary" href="add-subagent.php" role="button">Add  Sub Agents</a>
                 </div>
               </div>
               <!-- /.card-header -->
