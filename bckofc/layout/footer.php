@@ -63,7 +63,7 @@
        //alert('dashboard');
        $("#lnkSubAgents").addClass("active");
    }
-   if (window.location.href.indexOf("report") > -1) {
+   if (window.location.href.indexOf("PLReport") > -1) {
        //alert('dashboard');
        $("#lnkReports").addClass("active");
    }
