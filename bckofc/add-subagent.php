@@ -55,7 +55,15 @@
                     <input type="password" class="form-control"  placeholder="Confirm Password">
                   </div>
 
-                 
+                  <div class="form-group">
+                    
+                    <label >Permissions</label>
+                    <div class="custom-control custom-checkbox"> 
+                      <label for="chkSlot" class="custom-control-label">All Fraud Tools</label>
+                          <input class="custom-control-input" type="checkbox" id="chkSlot" value="SLOT">
+                         
+                        </div>
+                  </div>
                   
                 <!-- /.card-body -->
 
