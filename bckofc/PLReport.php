@@ -181,7 +181,7 @@ include 'layout/header.php';
 </div>
 <!-- /.card -->
 </div>
-
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
 <?php
 include 'layout/footer.php';
 ?>
