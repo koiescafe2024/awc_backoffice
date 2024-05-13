@@ -88,7 +88,7 @@
                       </div>
                       <div class="form-group">
                       
-                      <button type="button" style="margin-top:10px;margin-left:10px" class="btn btn-block btn-warning">Export</button>
+                      <button type="button" style="margin-top:32px;margin-left:10px" class="btn btn-block btn-warning">Export</button>
                       </div>
 
                 </div>
