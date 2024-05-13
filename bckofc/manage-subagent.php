@@ -38,12 +38,12 @@
                   <thead>
                     <tr>
                       <th style="width: 10px">#</th>
-                      <th>Name</th>
-                      <th>Email</th>
-                      <th>Mobile</th>
-                      <th>Date Of Birth</th>
-                      <th>Category</th>
-                      <th>Experience</th>
+                      <th>User ID</th>
+                      <th>User Name</th>
+                      <th>Login Failure</th>
+                      <th>Permissions</th>
+                      <th>Password Lock</th>
+                    
                       <th>Status</th>
                       <th colspan="4" style="width:90px" >Action</th>
                     </tr>
@@ -51,48 +51,21 @@
                   <tbody>
                     <tr>
                       <td >1.</td>
-                      <td >Shobhit Garg</td>
-                      <td>shobhit@gmail.com</td>
-                      <td>8934532244</td>
-                      <td>1-1-2022</td>
-                      <td>Car</td>
-                      <td>6 Month</td>
-                      <td style="color:green;">Accepted</td>
-                      <td><button type="button" class="btn btn-outline-success">Accept</button>
+                      <td >SBAG001</td>
+                      <td>Sub agent 1</td>
+                      <td>0</td>
+                      <td>All</td>
+                      <td>Locked</td>
+                     
+                      <td style="color:green;">Active</td>
+                      <td><button type="button" class="btn btn-outline-success">Suspend</button>
                       <button type="button" class="btn btn-info">View</button>
-                      <button type="button" class="btn btn-success">Update</button>
                       <button type="button" class="btn btn-danger">Delete</button></td>
                     </tr>
 
-                    <tr>
-                      <td >2.</td>
-                      <td >Rahul</td>
-                      <td>rahul@gmail.com</td>
-                      <td>8912233222</td>
-                      <td>1-1-2022</td>
-                      <td>Bike</td>
-                      <td>4 Month</td>
-                      <td style="color:red;">Rejected</td>
-                      <td><button type="button" class="btn btn-outline-danger">Reject</button>
-                      <button type="button" class="btn btn-info">View</button>
-                      <button type="button" class="btn btn-success">Update</button>
-                      <button type="button" class="btn btn-danger">Delete</button></td>
-                    </tr>
+                   
 
-                    <tr>
-                      <td>3.</td>
-                      <td>Yash</td>
-                      <td>yash@gmail.com</td>
-                      <td>7012421124</td>
-                      <td>1-1-2021</td>
-                      <td>car</td>
-                      <td>10 Month</td>
-                      <td>Acceptance Pending</td>
-                      <td><button type="button" class="btn btn-outline-success">Accept</button>
-                      <button type="button" class="btn btn-info">View</button>
-                      <button type="button" class="btn btn-success">Update</button>
-                      <button type="button" class="btn btn-danger">Delete</button></td>
-                    </tr>
+                
 
                     
 
