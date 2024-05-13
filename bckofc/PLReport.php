@@ -30,6 +30,17 @@
 
               <br/>
                 <div class="row">
+                <div class="form-group" placeholder="Select">
+                        <label>Period</label>
+                        <select class="custom-select">
+                        <option value="1">Today</option>
+                          <option value="2">Yesterday</option>
+                          <option value="3">This Week</option>
+                          <option value="4">Last Week</option>
+                          <option value="5">This Month</option>
+                          <option value="6">Last Month</option>
+                        </select>
+                      </div>
                 <div class="form-group">
                         <label>Date Time</label>
                         <input type="text" class="form-control" placeholder="Date Time">
