@@ -57,10 +57,11 @@
 
                   <div class="form-group">
                     
-                    <label >Permissions</label>
+                    Permissions
                     <div class="custom-control custom-checkbox"> 
-                      <label for="chkSlot" class="custom-control-label">All Fraud Tools</label>
-                          <input class="custom-control-input" type="checkbox" id="chkSlot" value="SLOT">
+                    <input class="custom-control-input" type="checkbox" id="Permissions" value="All Fraud Tools">
+                      <label for="Permissions" class="custom-control-label">All Fraud Tools</label>
+                          
                          
                         </div>
                   </div>
