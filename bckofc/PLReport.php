@@ -67,9 +67,9 @@
                           <option value="SLOT">SLOT</option>
                           <option value="TABLE">TABLE</option>
                           <option value="VIRTUAL">VIRTUAL</option>
-                          <option value="DEALER_TIPPING">DEALER_TIPPING</option>
-                          <option value="PROMOTION">PROMOTION</option>
-                          <option value="STREAMER_TIPPING">STREAMER_TIPPING</option>
+                          <option value="DEALER_TIPPING">Other - DEALER_TIPPING</option>
+                          <option value="PROMOTION">Other - PROMOTION</option>
+                          <option value="STREAMER_TIPPING">Other - STREAMER_TIPPING</option>
                         </select>
                       </div>
                       
