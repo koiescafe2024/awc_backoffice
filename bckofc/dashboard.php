@@ -78,7 +78,7 @@
           
         <div class="row">
           <!-- Left col -->
-          <section class="col-lg-7 connectedSortable">
+          <section class="col-lg-6 connectedSortable">
             <!-- Custom tabs (Charts with tabs)-->
             <div class="card">
               <div class="card-header">
@@ -138,7 +138,7 @@
                 <!-- /.card-tools -->
               </div>
               <div class="card-body">
-                <div id="world-map" style="height: 250px; width: 100%;"></div>
+                <div id="world-map" style="height: 250px; width: 120%;"></div>
               </div>
               <!-- /.card-body-->
               <div class="card-footer bg-transparent">
