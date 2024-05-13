@@ -56,8 +56,23 @@
                       </div>
                       <div class="form-group">
                         <label>Type</label>
-                        <input type="text" class="form-control" placeholder="Type">
+                        <select class="custom-select">
+                        <option value="-1">Select Game / Other Type</option>
+                          <option value="All">All</option>
+                          <option value="EGAME">EGAME</option>
+                          <option value="ESPORT">ESPORT</option>
+                          <option value="FISH">FISH</option>
+                          <option value="LIVE">LIVE</option>
+                          <option value="LOTTO">LOTTO</option>
+                          <option value="SLOT">SLOT</option>
+                          <option value="TABLE">TABLE</option>
+                          <option value="VIRTUAL">VIRTUAL</option>
+                          <option value="DEALER_TIPPING">DEALER_TIPPING</option>
+                          <option value="PROMOTION">PROMOTION</option>
+                          <option value="STREAMER_TIPPING">STREAMER_TIPPING</option>
+                        </select>
                       </div>
+                      
                       <div class="form-group">
                         <label>Location</label>
                         <input type="text" class="form-control" placeholder="Location">
@@ -70,6 +85,9 @@
                           <option value="THB">THB</option>
                         
                         </select>
+                      </div>
+                      <div class="form-group">
+                      <button type="button" class="btn btn-block btn-warning">Export</button>
                       </div>
 
                 </div>
