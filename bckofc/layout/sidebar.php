@@ -38,7 +38,7 @@
               <p>Manage Members</p>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" style="display:none">
             <a href="players.php" id="lnkPlayrstcs" class="nav-link">
               <i class="nav-icon fas fa-address-card"></i>
               <p>Players Statistics</p>
@@ -46,7 +46,7 @@
           </li>
          
 
-          <li class="nav-item">
+          <li class="nav-item" style="display:none">
             <a href="new-player-stats.php" id="lnkNewPlyr" class="nav-link">
               <i class="nav-icon fas fa-user-secret"></i>
               <p>New Player Stats</p>
