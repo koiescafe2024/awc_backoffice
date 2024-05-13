@@ -78,7 +78,18 @@ include 'layout/header.php';
                       value="SkyCasinoHedgingDetection">
                     <label class="form-check-label">Sky Casino Hedging Detection</label>
                   </div>
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" type="checkbox" id="allMembers" value="All Members">
+                    <label for="allMembers" class="custom-control-label">All Members</label>
 
+
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input class="custom-control-input" type="checkbox" id="allReports" value="All Reports">
+                    <label for="allReports" class="custom-control-label">All Reports</label>
+
+
+                  </div>
 
                   <!-- /.card-body -->
 
