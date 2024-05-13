@@ -61,7 +61,8 @@
                     <div class="custom-control custom-checkbox"> 
                     <input class="custom-control-input" type="checkbox" id="Permissions" value="All Fraud Tools">
                       <label for="Permissions" class="custom-control-label">All Fraud Tools</label>
-                          
+                      <input class="custom-control-input" type="checkbox" id="Permissions2" value="Sexy Hedging Detection">
+                      <label for="Permissions2" class="custom-control-label">Sexy Hedging Detection</label>
                          
                         </div>
                   </div>
