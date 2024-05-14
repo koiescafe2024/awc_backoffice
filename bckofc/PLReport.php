@@ -123,6 +123,9 @@ include 'layout/header.php';
               <th><span style="color:blue;font-weight:bold">Agent</span> PT Win/Loss</th>
               <th>Adjustment</th>
               <th>Total P/L</th>
+              <th><span style="color:blue;font-weight:bold">Master Agent</span> PT Win/Loss</th>
+              <th>Adjustment</th>
+              <th>Total P/L</th>
 
               <th><span style="color:blue;font-weight:bold">Franchise Agent</span> Win/Loss</th>
               <th>Adjustment</th>
