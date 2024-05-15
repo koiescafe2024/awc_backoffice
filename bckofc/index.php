@@ -21,7 +21,7 @@
   </div>
   <!-- /.login-logo -->
   <?php 
- // use Dolondro\GoogleAuthenticator\SecretFactory;
+  use Dolondro\GoogleAuthenticator\SecretFactory;
   require_once "vendor/autoload.php";
 
   if (isset($argv[1])) {
