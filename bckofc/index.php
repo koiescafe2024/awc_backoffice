@@ -21,6 +21,7 @@
   </div>
   <!-- /.login-logo -->
   <?php 
+  use Dolondro\GoogleAuthenticator\SecretFactory;
   include "vendor/autoload.php";
 
   if (isset($argv[1])) {
@@ -28,7 +29,7 @@
     echo "Secret passed in as argument!\n";
     echo "Your secret is ".$secretKey."\n";
 } else {
-    $secretFactory = new \Dolondro\GoogleAuthenticator\SecretFactory();
+    $secretFactory = new SecretFactory();
     $secret = $secretFactory->create("MyAwesomeWebCo", "Dolondro");
     $secretKey = $secret->getSecretKey();
 
