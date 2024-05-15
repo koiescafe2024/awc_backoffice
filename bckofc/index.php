@@ -24,7 +24,7 @@
   <div class="card">
     <div class="card-body login-card-body">
       
-      <action="dashboard.php" method="post">
+      <form action="apis.php?flag=login" method="post">
         <image height="200px" width="200px" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=otpauth%3A%2F%2Ftotp%2FGoogleAuthenticator%3ABundaii%3Fsecret%3DSMGOQ6SHAX3M3XKE%26issuer%3DGoogleAuthenticatorExample&ecc=M"></image>
         <div class="input-group mb-3">
           <input type="text" class="form-control" name="uname" placeholder="Username">
