@@ -24,9 +24,9 @@
   
   
   require_once "vendor/autoload.php";
-  include_once  'vendor/src/FixedBitNotation.php';
-  include_once 'vendor/src/GoogleAuthenticator.php';
-  include_once  'vendor/src/GoogleQrUrl.php';
+  include_once  'vendor//sonata/google-authenticator/src/FixedBitNotation.php';
+  include_once 'vendor/sonata/google-authenticator/src/GoogleAuthenticator.php';
+  include_once  'vendor/sonata/google-authenticator/src/GoogleQrUrl.php';
 
   $secret = 'XVQ2UIGO75XRUKJO';
 $code = '846474';
