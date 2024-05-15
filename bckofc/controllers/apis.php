@@ -1,4 +1,8 @@
 <?php
+ require_once "vendor/autoload.php";
+ include_once  'vendor//sonata/google-authenticator/src/FixedBitNotation.php';
+ include_once 'vendor/sonata/google-authenticator/src/GoogleAuthenticator.php';
+ include_once  'vendor/sonata/google-authenticator/src/GoogleQrUrl.php';
 
 $api_url="";
 
@@ -36,7 +40,45 @@ if ($flag == 'login') {
 
     $password = $_POST['pass'];
 
-    die($uname.'--'.$password);
+    $code = $_POST['2fa'];
+
+  //  die($uname.'--'.$password);
+
+     
+
+$g = new \Sonata\GoogleAuthenticator\GoogleAuthenticator();
+
+$secret="DSMGOQ6SHAX3M3XKE";
+
+
+
+//$secret = $g->generateSecret();
+//echo "Get a new Secret: $secret \n";
+//echo "The QR Code for this secret (to scan with the Google Authenticator App: \n";
+
+//echo \Sonata\GoogleAuthenticator\GoogleQrUrl::generate('Bundaii', $secret, 'GoogleAuthenticatorExample');
+//echo "\n";
+
+
+//echo 'Current Code is: ';
+//$cd= $g->getCode($secret);
+
+
+//echo "\n";
+
+//echo "Check if $cd is valid: ";
+
+if ($g->checkCode($secret, $code)) {
+  echo "YES \n";
+  die("matched");
+} else {
+  echo "NO \n";
+  die("not matched");
+}
+
+  
+
+  
 
     $url = $app_url . "/adminlogin.php?email=" . $email . "&password=" . $password;
 
