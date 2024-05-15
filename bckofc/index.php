@@ -28,7 +28,7 @@
  $g = new \Google\Authenticator\GoogleAuthenticator();
  $secret  = $g->generateSecret();
 
- echo '<img src="'.$g->getURL('sumit', 'https://bn-d-ai-bak-ofc.yi9ne2.easypanel.host', $secret).'" />';
+ echo '<img src="'.$g->getURL('sumit', 'bn-d-ai-bak-ofc.yi9ne2.easypanel.host', $secret).'" />';
  ?>
   
   <div class="card">
