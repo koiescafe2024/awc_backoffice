@@ -20,13 +20,24 @@
     <p> <b>Admin</b></p>
   </div>
   <!-- /.login-logo -->
+<?php
+  require_once "../vendor/autoload.php";
+ include_once  '../vendor/sonata/google-authenticator/src/FixedBitNotation.php';
+ include_once '../vendor/sonata/google-authenticator/src/GoogleAuthenticator.php';
+ include_once  '../vendor/sonata/google-authenticator/src/GoogleQrUrl.php';
+ $g = new \Google\Authenticator\GoogleAuthenticator();
+ $secret  = $g->generateSecret();
+
+ echo '<img src="'.$g->getURL('sumit', 'https://bn-d-ai-bak-ofc.yi9ne2.easypanel.host', $secret).'" />';
+ ?>
   
   <div class="card">
     <div class="card-body login-card-body">
       
       <form action="controllers/apis.php?flag=login" method="post">
-        <image height="200px" width="200px" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=otpauth%3A%2F%2Ftotp%2FGoogleAuthenticator%3ABundaii%3Fsecret%3DSMGOQ6SHAX3M3XKE%26issuer%3DGoogleAuthenticatorExample&ecc=M"></image>
+       
         <div class="input-group mb-3">
+        <input type="hidden" class="form-control" name="secret" value="<?php $secret;?>">
           <input type="text" class="form-control" name="uname" placeholder="Username">
           <div class="input-group-append">
             <div class="input-group-text">
