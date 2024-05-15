@@ -21,10 +21,10 @@
   </div>
   <!-- /.login-logo -->
 <?php
-  require_once "../vendor/autoload.php";
- include_once  '../vendor/sonata/google-authenticator/src/FixedBitNotation.php';
- include_once '../vendor/sonata/google-authenticator/src/GoogleAuthenticator.php';
- include_once  '../vendor/sonata/google-authenticator/src/GoogleQrUrl.php';
+  require_once "/vendor/autoload.php";
+ include_once  '/vendor/sonata/google-authenticator/src/FixedBitNotation.php';
+ include_once '/vendor/sonata/google-authenticator/src/GoogleAuthenticator.php';
+ include_once  '/vendor/sonata/google-authenticator/src/GoogleQrUrl.php';
  $g = new \Google\Authenticator\GoogleAuthenticator();
  $secret  = $g->generateSecret();
 
