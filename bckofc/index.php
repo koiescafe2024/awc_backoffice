@@ -36,7 +36,7 @@ $secret = $g->generateSecret();
 echo "Get a new Secret: $secret \n";
 echo "The QR Code for this secret (to scan with the Google Authenticator App: \n";
 
-echo \Sonata\GoogleAuthenticator\GoogleQrUrl::generate('chregu', $secret, 'GoogleAuthenticatorExample');
+echo \Sonata\GoogleAuthenticator\GoogleQrUrl::generate('Bundaii', $secret, 'GoogleAuthenticatorExample');
 echo "\n";
 
 echo 'Current Code is: ';
