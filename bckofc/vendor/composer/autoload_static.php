@@ -7,9 +7,17 @@ namespace Composer\Autoload;
 class ComposerStaticInit51db6e32cb8727d36e4b1e4f8d87ca2d
 {
     public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Sonata\\GoogleAuthenticator\\' => 27,
+        ),
         'P' => 
         array (
             'Psr\\Cache\\' => 10,
+        ),
+        'G' => 
+        array (
+            'Google\\Authenticator\\' => 21,
         ),
         'D' => 
         array (
@@ -22,9 +30,17 @@ class ComposerStaticInit51db6e32cb8727d36e4b1e4f8d87ca2d
     );
 
     public static $prefixDirsPsr4 = array (
+        'Sonata\\GoogleAuthenticator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sonata-project/google-authenticator/src',
+        ),
         'Psr\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
+        ),
+        'Google\\Authenticator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sonata-project/google-authenticator/src',
         ),
         'Dolondro\\GoogleAuthenticator\\' => 
         array (

@@ -6,7 +6,9 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Sonata\\GoogleAuthenticator\\' => array($vendorDir . '/sonata-project/google-authenticator/src'),
     'Psr\\Cache\\' => array($vendorDir . '/psr/cache/src'),
+    'Google\\Authenticator\\' => array($vendorDir . '/sonata-project/google-authenticator/src'),
     'Dolondro\\GoogleAuthenticator\\' => array($vendorDir . '/dolondro/google-authenticator/src'),
     'Base32\\' => array($vendorDir . '/christian-riesen/base32/src'),
 );

@@ -3,7 +3,7 @@
 namespace Dolondro\GoogleAuthenticator\QrImageGenerator;
 
 use Dolondro\GoogleAuthenticator\Secret;
-use Endroid\QrCode\QrCode;
+
 
 class EndroidQrImageGenerator implements QrImageGeneratorInterface
 {

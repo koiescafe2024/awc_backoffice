@@ -21,26 +21,25 @@
   </div>
   <!-- /.login-logo -->
   <?php
-  use \Dolondro\GoogleAuthenticator\SecretFactory;
+  
   
   require_once "vendor/autoload.php";
+  include_once  'vendor/src/FixedBitNotation.php';
+  include_once 'vendor/src/GoogleAuthenticator.php';
+  include_once  'vendor/src/GoogleQrUrl.php';
 
-  if (isset($argv[1])) {
-    $secretKey = $argv[1];
-    echo "Secret passed in as argument!\n";
-    echo "Your secret is ".$secretKey."\n";
-} else {
-    $secretFactory = new SecretFactory();
-    $secret = $secretFactory->create("MyAwesomeWebCo", "Dolondro");
-    $secretKey = $secret->getSecretKey();
+  $secret = 'XVQ2UIGO75XRUKJO';
+$code = '846474';
 
-    $qrImageGenerator = new \Dolondro\GoogleAuthenticator\QrImageGenerator\EndroidQrImageGenerator();
-    // $qrImageGenerator = new \Dolondro\GoogleAuthenticator\QrImageGenerator\GoogleQrImageGenerator();
+$g = new \Sonata\GoogleAuthenticator\GoogleAuthenticator();
 
-    echo "Your secret is: ".$secretKey."\n";
-    file_put_contents(__DIR__."/example.html", "<img src='".$qrImageGenerator->generateUri($secret)."'>'");
-    echo "Visit this URL: 'file://".__DIR__."/example.html' to view an image of your secret, and add it to your google authenticator app\n";
-}
+echo 'Current Code is: ';
+echo $g->getCode($secret);
+
+echo "\n";
+
+echo "Check if $code is valid: ";
+  
 
   ?>
   <div class="card">
