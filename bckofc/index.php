@@ -21,8 +21,8 @@
   </div>
   <!-- /.login-logo -->
   <?php 
-  use Dolondro\GoogleAuthenticator\SecretFactory;
-  include "vendor/autoload.php";
+ // use Dolondro\GoogleAuthenticator\SecretFactory;
+  require_once "vendor/autoload.php";
 
   if (isset($argv[1])) {
     $secretKey = $argv[1];
