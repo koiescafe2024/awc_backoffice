@@ -32,12 +32,17 @@
 
 $g = new \Sonata\GoogleAuthenticator\GoogleAuthenticator();
 
+$secret="";
+$cd="";
+
+
 $secret = $g->generateSecret();
 echo "Get a new Secret: $secret \n";
 echo "The QR Code for this secret (to scan with the Google Authenticator App: \n";
 
 echo \Sonata\GoogleAuthenticator\GoogleQrUrl::generate('Bundaii', $secret, 'GoogleAuthenticatorExample');
 echo "\n";
+
 
 echo 'Current Code is: ';
 $cd= $g->getCode($secret);
@@ -53,14 +58,14 @@ if ($g->checkCode($secret, $cd)) {
   echo "NO \n";
 }
 
-
   
 
   ?>
   <div class="card">
     <div class="card-body login-card-body">
       
-      <form action="dashboard.php" method="post">
+      < action="dashboard.php" method="post">
+        <image height="200px" width="200px" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=otpauth%3A%2F%2Ftotp%2FGoogleAuthenticatorExample%3ABundaii%3Fsecret%3DSMGOQ6SHAX3M3XKE%26issuer%3DGoogleAuthenticatorExample&ecc=M"></image>
         <div class="input-group mb-3">
           <input type="text" class="form-control" name="uname" placeholder="Username">
           <div class="input-group-append">
