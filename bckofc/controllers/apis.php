@@ -61,7 +61,7 @@ $secret="DSMGOQ6SHAX3M3XKE";
 
 
 //echo 'Current Code is: ';
-//$cd= $g->getCode($secret);
+$g->getCode($secret);
 
 
 //echo "\n";
