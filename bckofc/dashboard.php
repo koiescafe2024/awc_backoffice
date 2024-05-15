@@ -1,6 +1,18 @@
 <?php
-  include 'layout/header.php'; 
-  ?>
+session_start();
+  
+  
+
+ if(!isset($_SESSION["auth"]))
+ {
+
+  header("Location: ./index.php",false);
+ exit();
+ 
+}
+include 'layout/header.php'; 
+?>
+
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
   <div class="content-header">

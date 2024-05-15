@@ -17,7 +17,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <p> <b>Admin</b></p>
+    <p> <b>Login</b></p>
   </div>
   <!-- /.login-logo -->
 <?php
@@ -28,7 +28,7 @@
  $g = new \Google\Authenticator\GoogleAuthenticator();
  $secret  = $g->generateSecret();
 
- echo '<img src="'.$g->getURL('sumit', 'bn-d-ai-bak-ofc.yi9ne2.easypanel.host', $secret).'" />';
+ 
  ?>
   
   <div class="card">
@@ -37,11 +37,11 @@
       <form action="controllers/apis.php?flag=login" method="post">
        
         <div class="input-group mb-3">
-        <input type="hidden" class="form-control" name="secret" value="<?php $secret;?>">
+        <input type="hidden" class="form-control" name="secret" value="<?php echo $secret?>">
           <input type="text" class="form-control" name="uname" placeholder="Username">
           <div class="input-group-append">
             <div class="input-group-text">
-              <span class="fas fa-envelope"></span>
+              <span class="fas fa-user"></span>
             </div>
           </div>
         </div>
@@ -53,8 +53,12 @@
             </div>
           </div>
         </div>
+        <div class="input-group mb-3" style="text-align:center">
+          <span style="margin-left:3%"><br/><label>Scan the QR code</label>
+<?php echo '<img src="'.$g->getURL('Login', 'Bundaii', $secret).'" />'; ?></span>
+        </div>
         <div class="input-group mb-3">
-          <input type="text" class="form-control" name="2fa" placeholder="2FA Code">
+          <input type="text" class="form-control" required name="2fa" placeholder="Enter 2FA Code">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
