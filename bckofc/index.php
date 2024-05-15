@@ -38,7 +38,7 @@
        
         <div class="input-group mb-3">
         <input type="hidden" class="form-control" name="secret" value="<?php echo $secret?>">
-          <input type="text" class="form-control" name="uname" placeholder="Username">
+          <input type="text" class="form-control" required name="uname" placeholder="Username">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-user"></span>
@@ -46,7 +46,7 @@
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" name="pass" placeholder="Password">
+          <input type="password" class="form-control" required name="pass" placeholder="Password">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
