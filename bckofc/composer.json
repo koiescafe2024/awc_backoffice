@@ -1,0 +1,5 @@
+{
+    "require": {
+        "dolondro/google-authenticator": "^2.2"
+    }
+}
