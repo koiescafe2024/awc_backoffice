@@ -39,6 +39,19 @@ echo $g->getCode($secret);
 echo "\n";
 
 echo "Check if $code is valid: ";
+
+if ($g->checkCode($secret, $code)) {
+  echo "YES \n";
+} else {
+  echo "NO \n";
+}
+
+$secret = $g->generateSecret();
+echo "Get a new Secret: $secret \n";
+echo "The QR Code for this secret (to scan with the Google Authenticator App: \n";
+
+echo \Sonata\GoogleAuthenticator\GoogleQrUrl::generate('chregu', $secret, 'GoogleAuthenticatorExample');
+echo "\n";
   
 
   ?>
